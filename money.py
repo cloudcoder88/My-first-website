@@ -1,9 +1,9 @@
 from flask import Flask
 app=Flask(__name__)
-
 @app.route('/')
 def index():
     return"""
+    <!DOCTYPE html>
     <h1>welcome to Auto hub 🏎️💨</h1>
 <h2>we provide you with the best car trends and updates</h2>
 <h3>Also remember to subscribe to our youtube channel</h3> <a href="https://youtu.be/cG1hr3uat0c?si=E7FxqjQM1d8D_i4H"> click here to subscribe</a>
